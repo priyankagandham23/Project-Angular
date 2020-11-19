@@ -1,0 +1,22 @@
+<div class="jumbotron">
+<div class="container bg-warning py-5">
+
+
+<form #user="ngForm" class="form-inline">
+    <!-- {{ user.value | json }}
+    <hr>
+    {{ userModel | json }} -->
+    <div class="form-group m-1">
+    <input class="form-control" type="text" name="username"  [(ngModel)]="userModel.name">
+</div>
+<div class="form-group m-1">
+    <input class="form-control" type="password" name="password" [(ngModel)]="userModel.pwd">
+</div>
+<!-- <div class="form-group">
+    <input class="btn btn-primary" type="submit" value="Login">
+</div> -->
+   
+</form>
+<button class="btn btn-primary border rounded-pill btn-lg">Login</button>
+</div>
+</div>
