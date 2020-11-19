@@ -1,0 +1,22 @@
+<!-- <ul *ngFor="let g of e7">
+    <li>
+        {{g.id}}
+        
+    </li>
+    <li>
+        {{g.name}}
+    </li>
+    
+</ul> -->
+<table class="table">
+    <tr class="bg-dark text-white">
+        <th>id</th>
+        <th>name</th>
+        <th>Department</th>
+    </tr>
+    <tr *ngFor="let g of Emp">
+        <td>{{g.id}}</td>
+        <td>{{g.name}}</td>
+        <td>{{g.dept}}</td>
+    </tr>
+</table>

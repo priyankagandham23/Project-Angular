@@ -1,0 +1,6 @@
+<div *ngIf="user;else failed">
+<h3>Success</h3>
+</div>
+<ng-template #failed>
+    <h3>Sorry you have entered wrong crediatials</h3>
+</ng-template>

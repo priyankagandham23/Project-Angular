@@ -1,0 +1,15 @@
+
+<table class="table m-5 p-5">
+    <tr class="thead-dark ">
+    <th>S.No</th>
+    <th>id</th>
+    <th>Name</th>
+    <th>City</th>
+</tr>
+    <tr *ngFor="let u1 of users;let i=index">
+        <td>{{i+1}}</td>
+        <td>{{u1.id}}</td>
+        <td>{{u1.name}}</td>
+        <td>{{u1.city}}</td>
+    </tr>
+</table>
